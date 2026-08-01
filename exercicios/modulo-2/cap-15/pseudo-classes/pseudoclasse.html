@@ -5,23 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo-Classes</title>
     <style>
-        div {
-            display: inline-block;
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        div.caixa {
+            display: inline;
             background-color: lightgray;
             text-align: center;
             border: 1px solid black;
             width: 200px;
             height: 200px;
+            margin-bottom: 20px;
         }
 
-        div:hover {
+        #d1:hover {
+            background-color: rgba(12, 206, 22, 0.781);
+        }
+
+        #d2:hover {
             background-color: yellow;
         }
+
+        #d3:hover {
+            background-color: rgba(241, 7, 7, 0.877);
+        }
+        
     </style>
 </head>
 <body>
-    <div id="d1">01</div>
-    <div id="d2">02</div>
-    <div id="d3">03</div>
+    <div class="container">
+        <div id="d1" class="caixa">01</div>
+        <div id="d2" class="caixa">02</div>
+        <div id="d3" class="caixa">03</div>
+    </div>
 </body>
 </html>
