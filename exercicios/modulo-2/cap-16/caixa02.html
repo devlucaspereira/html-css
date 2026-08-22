@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: dimgray;
+            background-color: rgb(78, 78, 78);
             margin: 0px;
         }
 
@@ -17,91 +17,63 @@
             margin: 10px;
         }
 
-        nav {
-            background-color: rgb(78, 78, 78);
-            padding: 3px;
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.308);
-        }
-
-        nav > a {
-            color: white;
-            text-decoration: none;
-            margin-right: 30px;
-        }
-
-        nav > a:hover {
-            text-decoration: underline;
-        }
-
         main {
             background-color: white;
             padding: 10px;
-            margin: 10px;
-            border-radius: 10px 0px;
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.308);
-        }
-        article {
-            background-color: lightgray;
-            padding: 5px;
+            max-width: 900px;
+            margin: 10px auto 10px auto;
         }
 
-        article > aside {
-            background-color: rgb(161, 161, 161);
+        article {
+            background-color: lightgray;
+            padding: 5px 15px;
+            text-align: justify;
+        }
+
+        article aside {
+            background-color: darkgray;
         }
 
         footer {
             background-color: black;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer p {
             color: white;
-            padding: 5px;
-            text-align: center;
-            margin: 0px;
-        }
-
-        footer > p {
-            margin: 0px;
-        }
-
-        div#bola {
-            background-color: blue;
-            width: 100px;
-            height: 100px;
-            margin: 10px auto;
-            border-radius: 50%;
+            text-align: center; 
         }
     </style>
 </head>
 <body>
-   <header>
-    <h1>Meu Site</h1>
-    <nav>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-    </nav>
-   </header> 
-   <main>
-    <section id="assuntos">
-        <p>Esportes Política Tecnologia</p>
-    </section>
-    <section id="noticias">
-        <article>
-            <h2>Notícias sobre o Brasil</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt porro ullam placeat voluptate dolorum voluptatum recusandae commodi expedita ut animi. Nisi earum atque sunt. Quae nihil laborum cumque minus molestiae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos nobis a incidunt! Nostrum itaque officiis repellendus expedita suscipit eius dicta maiores a dolores doloribus, consequatur consequuntur id odit ea aspernatur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus suscipit dignissimos cupiditate porro delectus ipsam eius quas quibusdam velit enim? Quibusdam beatae maxime voluptatibus tempore fuga, non doloremque neque consequuntur?</p>
-            <aside>
-                <p>Artigo escrito por José da Silva</p>
-            </aside>
-        </article>
-        <article>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Sobre</a>
+            <a href="">Contato</a>
+            <a href="">Serviços</a>
+            <a href="">Blog</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
 
-        </article>
-    </section>
-   </main>
-   <footer>
-        <p>Desenvolvido pelo CursoemVideo</p>
-   </footer>
-   <div id="bola">
-
-   </div>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, omnis. Modi, quia molestiae, nemo architecto delectus tempora suscipit a id omnis quis exercitationem, labore officiis magni eius. Veniam, soluta illo! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, distinctio repellat dicta illo placeat est dolorum explicabo accusantium magni soluta nihil? A impedit dolores itaque dolore quaerat aut cupiditate totam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam adipisci molestiae itaque. Facere minus magnam odio cumque nemo corporis officiis quam dolorem illo, cupiditate velit at? A nisi ex architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veniam similique deserunt, eius rem repudiandae ut vel vitae, ea praesentium excepturi beatae incidunt corporis aut recusandae maxime dolorum dolore illo!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sit earum odit. Doloremque, ea repudiandae quaerat quidem, vel aliquam placeat saepe neque maxime, dolorem veniam explicabo? Eum officiis exercitationem eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi fugiat fugit, explicabo, reiciendis impedit sit inventore autem, eveniet rerum quisquam cum non placeat enim nobis nemo aliquam unde iure voluptatum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore animi quidem magnam tempore aut assumenda laboriosam aliquam ad odit, repellat adipisci iste ab quo at libero voluptate, delectus ullam laudantium.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por CursoemVideo</p>
+    </footer>
 </body>
 </html>
